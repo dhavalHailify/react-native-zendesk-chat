@@ -185,6 +185,19 @@ compile project(':react-native-zendesk-chat')
 Chat.INSTANCE.init(mReactContext, key, appId);
 ```
 
+## Troubleshoting
+If Gradle sync fails to resolve Zendesk libraries, add the following in `android/build.gradle`
+
+```gradle
+allprojects {
+    repositories {
+        maven {
+            url 'https://zendesk.jfrog.io/zendesk/repo'
+        }
+    }
+}
+```
+
 ## Contributing
 
 - Pull Requests are encouraged!
