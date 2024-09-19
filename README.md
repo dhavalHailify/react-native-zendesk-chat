@@ -1,5 +1,7 @@
 # react-native-zendesk-chat
 
+**Warning: This is a fork that will not be published to npm.**
+
 Simple module that supports displaying Zendesk Chat within a React Native Application.
 
 This library assumes you're familiar with Zendesk's Official Documentation: [iOS](https://developer.zendesk.com/embeddables/docs/chat-sdk-v-2-for-ios/introduction) and [Android](https://developer.zendesk.com/embeddables/docs/chat-sdk-v-2-for-android/introduction).
